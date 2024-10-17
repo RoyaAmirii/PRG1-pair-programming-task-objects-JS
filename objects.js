@@ -52,12 +52,20 @@ function getBooksByAuthor(authorName) {
 }
   
 
-function searchByBookName(searchTerm) {
+function searchByBookName (searchTerm) {
+    let booksbytitle = [];
+    for(const book of library){
+        if (book.title.toLowerCase() ===searchTerm.toLowerCase() )
+            booksbytitle.push( {title: book.title, author: book.author} )
+    }
+    return booksbytitle;
+
     
 }
   
   
-function displayLoanTotals() {
+function displayLoanTotals(LoanTotals) {
+    let 
     
 }
   
