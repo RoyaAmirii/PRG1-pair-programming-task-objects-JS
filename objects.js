@@ -62,10 +62,11 @@ function searchByBookName (searchTerm) {
 
     
 }
-  
-  
-function displayLoanTotals(LoanTotals) {
-    let 
+  function displayLoanTotals(searchLoan) {
+    let LoanTotals = []
+    for(const)
+
+
     
 }
   
